@@ -1,0 +1,29 @@
+.navBar{
+    
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 24px;
+
+}
+
+
+
+.active {
+  color: #1E1E1E;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.default {
+  color: #8A8A8A;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

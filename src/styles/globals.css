@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+  }
+
+/* Body website */
+body{
+    background-color: #210505;
+  
+    /* Fill Container di Figma == 100% di JS*/
+    width: 100vw; 
+    height: 100vh;
+  
+    padding-top: 120px;
+    /* Arah Flex */
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+   
+  
+    /* Kasih ke tengah flex */
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
